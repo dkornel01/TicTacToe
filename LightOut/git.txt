@@ -1,0 +1,35 @@
+echo "# Dk_gondolat_olvaso" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/dkornel01/Dk_gondolat_olvaso.git
+git push -u origin main
+
+git remote add origin https://github.com/dkornel01/Dk_gondolat_olvaso.git
+git branch -M main
+git push -u origin main
+
+
+cmd ablakba : wsl
+
+bongészőbe
+https://localhost:9443
+admin
+#Aa123456789@
+
+Indístd el a kívánt konténereket
+
+Konténer elérési út
+\\wsl.localhost\Debian\root\docker_react_laravel
+web html-ben dolgozunk
+
+\\wsl.localhost\Debian\root\docker_react_laravel\.webhtml
+wsl
+docker ps
+docker exec -it 9d8d2c141e31 /bin/bash
+NPM RUN START&
+
+node js telepitése
+npm install
+npm start
