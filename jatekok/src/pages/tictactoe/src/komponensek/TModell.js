@@ -16,11 +16,11 @@ class TModell{
         this.#lista=list
     }
     setAllapot(index){
-        if (this.#allapot==="x"){
-            this.#allapot="o";
+        if (this.#lista==="x"){
+            this.#lista="o";
         }
         else{
-            this.#allapot="x";
+            this.#lista="x";
             
         }
         this.#lista[index]=this.#allapot;
